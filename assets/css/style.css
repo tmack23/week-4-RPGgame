@@ -1,0 +1,115 @@
+
+
+
+body{
+background-image: url("castle.jpg");
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	max-width: 1260px;
+	margin: 0 auto;
+	/*clear: both;*/
+}
+
+h1{
+	margin: 0 auto;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+/*makes the character tiles*/
+#knight, #thief, #ranger, #mage{
+	width: 200px;
+	height: 275px;
+	border: solid green 4px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	padding-bottom: 14px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	background-color: white;
+	
+
+
+}
+
+/*sizes images*/
+img{
+	width: 150px;
+	height:150px;
+	}
+
+
+p {
+	clear: both;
+	font-weight: bold;
+}
+/*sizes progress bar*/
+.progress{
+	width: 100px;
+	height:17px;
+	margin: auto;
+}
+.title{
+	font-family: impact; 
+	font-size: 17px;
+}
+
+/*tiles for the catagories of enemies*/
+ #enemies, #defending{
+	border: solid black 1px;
+	background-color:#D7DBA1 ;
+	color: black;
+	clear: both;
+	width:200px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center
+}
+
+#defending, #def{
+	float: right;
+	clear: right;
+}
+
+
+#charChosen{
+	font-size: 30px;
+	margin: auto;
+	margin-right: 20px;
+	
+}
+
+#target1,  #target2, #target3{
+	float: left;
+}
+
+/*attempt at an add class*/
+.enemy{
+	background-color: red;
+}
+
+#attackButton{
+	float: right;
+	clear: both;
+}
+
+#scoreBoard{
+	width: 200px;
+	margin-left: 375px;
+	
+
+}
+
+.gameStats{
+	width: 350px;
+	height: 275px;
+	background-color:white;
+	margin: 0 auto;
+
+}

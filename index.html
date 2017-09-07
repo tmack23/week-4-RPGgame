@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+	<title>RPG game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/logic.js"></script>
+</head>
+<body>
+	<main class="container">
+
+		<h1>Clash of Heroes</h1>
+
+
+				<div id="charChosen">
+					<p>Choose your character</p>
+				</div>	
+
+				<div id="target4"></div>
+
+				<div id="defending">
+					<h4>Defending</h4>
+				</div>
+
+				<div id="def"></div>
+
+				<div id="scoreBoard"></div>
+
+			<div id="players">	
+				<div id="knight">
+					<p class="title">Knight</p>
+						<img src="assets/images/Knight.jpg">
+				
+							<div class="progress">
+		  						<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="200" style="width: 100%;">
+		   			 				<span id="kHealth">200</span>HP
+		  						</div>
+							</div>
+				
+					<p>Attack: 40 <br> Defense: 5 <br> Hit Chance: 25%</p>
+						
+				</div>
+
+				<div id="thief">
+					<p class="title">Thief</p>
+						<img src="assets/images/thief.jpg">
+				
+							<div class="progress">
+		  						<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="200" style="width: 100%;">
+		   			 				<span id="tHealth">150</span>HP
+		   			 			</div>
+							</div>
+				
+					<p>Attack: 30 <br> Defense: 4 <br> Hit Chance: 50%</p>
+						
+				</div>
+
+				<div id="ranger">
+						<p class="title">Ranger</p>
+							<img src="assets/images/ranger.jpg">
+						
+								<div class="progress">
+				  					<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="200" style="width: 100%;">
+				   			 				<span id="rHealth">120</span>HP
+				  						</div>
+									</div>
+						
+							<p>Attack: 20 <br> Defense: 3 <br> Hit Chance: 75%</p>
+								
+						</div>
+
+				<div id="mage">
+						<p class="title">Mage</p>
+							<img src="assets/images/mage.jpg">
+						
+								<div class="progress">
+				  					<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="200" style="width: 100%;">
+				   			 				<span id="mHealth">100</span>HP
+				  						</div>
+									</div>
+						
+							<p>Attack: 10 <br> Defense: 2 <br> Hit Chance: 100%</p>
+								
+						</div>
+			</div>
+
+
+
+
+<div id="enemies">
+<h4>Enemies</h4>
+</div>
+
+<div id="target1"></div>
+<div id="target2"></div>
+<div id="target3"></div>
+
+
+
+
+</main>
+</body>
+</html>
